@@ -1,0 +1,152 @@
+[
+  {
+    "TimeGenerated": "2026-02-01T18:00:01Z",
+    "SourceIP": "10.0.0.5",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 443,
+    "Protocol": "TCP",
+    "Action": "Allow",
+    "EventType": "Benign",
+    "Description": "Internal HTTPS request"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:00:05Z",
+    "SourceIP": "10.0.0.6",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 22,
+    "Protocol": "TCP",
+    "Action": "Allow",
+    "EventType": "Benign",
+    "Description": "Successful SSH login"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:00:10Z",
+    "SourceIP": "10.0.0.7",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 80,
+    "Protocol": "TCP",
+    "Action": "Allow",
+    "EventType": "Benign",
+    "Description": "Internal web request"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:01Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 22,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "SSH probe"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:02Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 23,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "Telnet scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:03Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 80,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "HTTP scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:04Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 443,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "HTTPS scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:05Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 3389,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "RDP scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:01:06Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 445,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "SMB exploit attempt"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:02:01Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 22,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "SSH brute force"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:02:02Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 22,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "SSH brute force"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:03:01Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 8080,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "Alternate web port scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:03:05Z",
+    "SourceIP": "198.51.100.23",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 443,
+    "Protocol": "TCP",
+    "Action": "Allow",
+    "EventType": "Benign",
+    "Description": "External HTTPS traffic"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:04:01Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 3306,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "MySQL scan"
+  },
+  {
+    "TimeGenerated": "2026-02-01T18:05:01Z",
+    "SourceIP": "203.0.113.50",
+    "DestinationIP": "10.0.0.10",
+    "DestinationPort": 22,
+    "Protocol": "TCP",
+    "Action": "Blocked",
+    "EventType": "Malicious",
+    "Description": "Final SSH attempt"
+  }
+]
